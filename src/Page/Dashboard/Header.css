@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.nav ul li a {
+  color: black;
+  font-size: 16px;
+  font: bold;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo p {
+  font-size: 3rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.img {
+  border: 1px solid red;
+  width: 5px;
+}
